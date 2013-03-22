@@ -1,9 +1,7 @@
 module TvdbParty
   class Search
     include HTTParty
-    include HTTParty::Icebox
     attr_accessor :language
-    cache :store => 'file', :timeout => 120, :location => Dir.tmpdir
 
     base_uri 'www.thetvdb.com/api'
 

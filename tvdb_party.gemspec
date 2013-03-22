@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
     "lib/tvdb_party/actor.rb",
     "lib/tvdb_party/banner.rb",
     "lib/tvdb_party/episode.rb",
-    "lib/tvdb_party/httparty_icebox.rb",
     "lib/tvdb_party/search.rb",
     "lib/tvdb_party/series.rb",
     "test/test_helper.rb",
